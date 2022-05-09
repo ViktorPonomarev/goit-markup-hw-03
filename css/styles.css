@@ -41,10 +41,10 @@ overflow: hidden;
 /* Container */
 .container {
 outline: 1px solid red;
-  width: 1200px;
+width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
- margin-left: auto;
+margin-left: auto;
 margin-right: auto;
 }
 .list {
@@ -53,13 +53,26 @@ list-style: none;
 .link {
 text-decoration: none;
 }
-/* Шапка */
+/* Шапка , header-container*/
 .header-section {
   color: var(--main-bacground-color);
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
 /* Логотип */
 .logo {
+  
+  
+  
   color: var(--accent-color);
   font-family: 'Raleway';
   font-weight: 700;

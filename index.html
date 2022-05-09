@@ -28,26 +28,33 @@
     <!-- Шапка,логотип -->
     <header class="header-section">
       <div class="container">
-        <nav>
-          <a lang="en" href="./index.html" class="logo link"
-            >Web<span class="logo-title">Studio</span></a
-          >
-          <!-- /* site-nav */ -->
-          <ul class="site-nav list">
-            <li>
-              <a href="./index.html" class="nav link current">Студия</a>
+        <div class="header-nav">
+          <nav class="navigation">
+            <a lang="en" href="./index.html" class="logo link"
+              >Web<span class="logo-title">Studio</span></a
+            >
+            <!-- /* site-nav */ -->
+
+            <ul class="site-nav list">
+              <li class="item">
+                <a href="./index.html" class="nav link current">Студия</a>
+              </li>
+              <li class="item"><a href="./portfolio.html" class="nav link">Портфолио</a></li>
+              <li class="item"><a href="./index.html" class="nav link">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <!-- auth-nav -->
+
+          <ul class="auth-nav list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="header-link link">info@devstudio.com</a>
             </li>
-            <li><a href="./portfolio.html" class="nav link">Портфолио</a></li>
-            <li><a href="./index.html" class="nav link">Контакты</a></li>
+            <li class="item">
+              <a href="tel:+380961111111" class="header-link link">+38 096 111 11 11</a>
+            </li>
           </ul>
-        </nav>
-        <!-- auth-nav -->
-        <ul class="auth-nav list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-link link">info@devstudio.com</a>
-          </li>
-          <li><a href="tel:+380961111111" class="header-link link">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
