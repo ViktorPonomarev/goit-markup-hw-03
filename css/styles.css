@@ -63,7 +63,10 @@ text-decoration: none;
   align-items: center;
 }
 
-
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
 
 
