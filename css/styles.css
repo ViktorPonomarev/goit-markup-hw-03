@@ -1,0 +1,261 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /* text-color */
+  --accent-color: #2196F3;
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #FFFFFF;
+  --logo-text-color: #000000;
+  /* bacground-calor */
+  --main-bacground-color: #FFFFFF;
+  --secondary-bacground-color: #2F303A;
+  --galerry-bacground-color: #E5E5E5;
+  --team-bacgrount-color: #F5F4FA;
+}
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  /* line-height: 35px; */
+letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--main-bacground-color);
+ }
+
+.list {
+  list-style: none;
+  }
+.link {
+  text-decoration: none;
+  
+
+}
+
+  /* Скрытые заголовки */
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+/* Шапка */
+.header-section {
+  color: var(--main-bacground-color);
+}
+
+/* Логотип */
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  
+}
+
+.logo-title {
+  color: var(--logo-text-color);
+ 
+}
+
+/* site-nav */
+.nav.link {
+  font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.link.current {
+  color: var(--accent-color);
+  
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+.header-link {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/*Герой */
+.hero-section {
+   background-color: var(--secondary-bacground-color);
+  }
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align:center;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  
+}
+  
+/* button */
+.hero-btn {
+font-family: inherit;
+  
+cursor: pointer;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+align-items: center;
+text-align: center;
+border: none;
+
+background-color: var(--accent-color);
+color: var(--secondary-text-color);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+  
+}
+
+/* Секция Преимущества */
+.benefits-section {
+  background-color: var(--main-bacground-color);
+  }
+/* Преимущества, Товары и услуги */
+
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.42;
+ 
+  color: var(--main-text-color);
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  
+  text-transform: uppercase;
+   color: var(--title-text-color);
+}
+/* Секция Примеры работ */
+
+.galerry-section {
+  background-color: var(--main-bacground-color);
+  }
+.galerry-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.71;
+   color: var(--title-text-color);
+}
+/* Секция Наша команда */
+.team-section {
+  background-color: var(--team-bacgrount-color);
+ 
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+}
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  
+  color: var(--title-text-color);
+}
+.team-text {
+font-size: 16px;
+line-height: 1.19;
+text-align:center;
+
+color: var(--main-text-color);
+}
+/* Футер */
+/* логотип */
+.address {
+  font-style: normal;
+}
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  
+}
+
+.logo-title-span {
+  color: var(--secondary-text-color);
+  
+}
+
+.footer-section {
+  background-color: var(--secondary-bacground-color);
+  color: var(--secondary-text-color);
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-text-color);
+}
+/* Портфолио  */
+/* button portfolio */
+.btn-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+font-family: inherit;
+border: none;
+color: var(--title-text-color);
+background-color: var(--galerry-bacground-color);
+cursor: pointer;
+}
+        
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+color: var(--secondary-text-color);
+background-color: var(--accent-color)
+}
+/* Товары и услуги */
+.features-section {
+  background-color: var(--main-bacground-color);
+}
+.features-items {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+
+color: var(--title-text-color);
+}
+.features-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+
+color: var(--main-text-color);
+}
