@@ -12,13 +12,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Рормализация стилей -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!-- Шапка,логотип -->
   <body>
     <header class="header-section">
-      <nav>
+  <div class="container">
+        <nav>
         <a lang="en" href="./index.html" class="logo link"
           >Web<span class="logo-title">Studio</span></a
         >
@@ -50,10 +53,12 @@
             <li></li><button type="button" class="btn-portfolio">Дизайн</button></li>
             <li></li><button type="button" class="btn-portfolio">Маркетинг</button></li>
           </ul>
+  </div>
         </section>
         <!-- Товары и услуги -->
         <section class="features-section">
-          <h1 class="visually-hidden">Заголовок секции</h1>
+      <div class="container">
+            <h1 class="visually-hidden">Заголовок секции</h1>
           <ul class="features list">
             <li><img
               src="./images/img-portfolio/img-1.jpg"
@@ -129,13 +134,15 @@
             <h2 lang="en" class="features-items">Growing Business</h2>
             <p class="features-text">Приложения</p></li>
           </ul>
+      </div>
         </section>
       </main>
     
 
       <!-- Футер -->
     <footer class="footer-section">
-      <a lang="en" href="./index.html" class="logo link"
+      <div class="container">
+        <a lang="en" href="./index.html" class="logo link"
         >Web<span class="logo-title-span">Studio</span></a
       >
       <address>
@@ -160,6 +167,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
      </body>
      </html>
