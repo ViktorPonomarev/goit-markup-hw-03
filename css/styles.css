@@ -207,7 +207,7 @@ line-height: 1.87;
 align-items: center;
 text-align: center;
 border: 1px solid transparent;
-
+letter-spacing: 0,06em;
 background-color: var(--accent-color);
 color: var(--secondary-text-color);
 }
@@ -220,21 +220,20 @@ color: var(--secondary-text-color);
 
 /* Секция Преимущества */
 .benefits-section {
-  background-color: var(--main-bacground-color);
-  }
+background-color: var(--main-bacground-color);
+}
 .benefits-list {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  
-  }
-  .benefits-item + .benefits-item {
-    margin-left: 30px;
-    width: 270px;
-    
-    
-    }
+display: flex;
+}
+/* .benefits-item {
+margin-right: 30px;
+width: 270px; */
 
+
+.benefits-item.item:not(:last-child) {
+margin-right: 30px;
+width: 270px;
+}
 
 /* Преимущества, Товары и услуги */
 
@@ -267,7 +266,15 @@ color: var(--secondary-text-color);
   font-size: 36px;
   line-height: 1.71;
    color: var(--title-text-color);
+ text-align: center;
+  margin-bottom: 50px;
 }
+  .galerry-img {
+    display: flex;
+  }
+    .item:not(:last-child) {
+      margin-right: 30px;
+      }
 /* Секция Наша команда */
 .team-section {
   background-color: var(--team-bacgrount-color);
@@ -278,6 +285,10 @@ color: var(--secondary-text-color);
   font-size: 36px;
   line-height: 1.17;
   color: var(--title-text-color);
+text-align: center;
+}
+.team.list {
+  display: flex;
 }
 .team-item {
   font-weight: 500;
@@ -341,6 +352,9 @@ border: none;
 color: var(--title-text-color);
 background-color: var(--galerry-bacground-color);
 cursor: pointer;
+letter-spacing: 0,06em;
+border-radius: 3px;
+border: 1px solid transparent;
 }
         
 .btn-portfolio:hover,
