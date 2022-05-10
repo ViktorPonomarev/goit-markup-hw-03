@@ -21,8 +21,18 @@ letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: var(--main-bacground-color);
  }
-
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
 
 /* Скрытые заголовки */
 .visually-hidden {
@@ -47,8 +57,20 @@ padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
 }
+/* Падинги для секций */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.footer-section {
+  padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .list {
 list-style: none;
+padding: 0;
+margin: 0;
 }
 .link {
 text-decoration: none;
@@ -66,15 +88,49 @@ text-decoration: none;
 .navigation {
   display: flex;
   align-items: center;
+  
+
 }
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+.navigation-item {
+  margin-right: 50px;
+ 
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.site-nav:last-child {
+  margin-right: 0;
+}
+.item {
+  display: block;
+margin-right: 50px;
 
 
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.item-tel {
+  display: block;
+  padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+.auth-nav {
+  display: block;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  }
 
 
 /* Логотип */
 .logo {
-  
-  
+
+margin-right: 93px;  
   
   color: var(--accent-color);
   font-family: 'Raleway';
@@ -120,28 +176,37 @@ text-decoration: none;
 /*Герой */
 .hero-section {
    background-color: var(--secondary-bacground-color);
+  text-align: center;
+  padding-top: 200px;
+    padding-bottom: 200px;
   }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align:center;
+  width: 696px;
+  height: 120px;
   text-transform: uppercase;
   color: var(--secondary-text-color);
-  
-}
-  
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  }
+
+
 /* button */
 .hero-btn {
 font-family: inherit;
-  
+margin-top: 30px;
+border-radius: 3px; 
 cursor: pointer;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 align-items: center;
 text-align: center;
-border: none;
+border: 1px solid transparent;
 
 background-color: var(--accent-color);
 color: var(--secondary-text-color);
@@ -157,16 +222,34 @@ color: var(--secondary-text-color);
 .benefits-section {
   background-color: var(--main-bacground-color);
   }
+.benefits-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  
+  }
+  .benefits-item + .benefits-item {
+    margin-left: 30px;
+    width: 270px;
+    
+    
+    }
+
+
 /* Преимущества, Товары и услуги */
 
 
 .benefits-text {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.42;
- 
+
   color: var(--main-text-color);
 }
 .benefits-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
