@@ -230,7 +230,7 @@ margin-right: 30px;
 width: 270px; */
 
 
-.benefits-item.item:not(:last-child) {
+.benefits-item:not(:last-child) {
 margin-right: 30px;
 width: 270px;
 }
@@ -261,7 +261,7 @@ width: 270px;
 .galerry-section {
   background-color: var(--main-bacground-color);
   }
-    .galerry-item.item:not(:last-child) {
+    .galerry-item:not(:last-child) {
       margin-right: 30px;
       width: 370px;
     }
@@ -312,7 +312,7 @@ text-align:center;
 
 color: var(--main-text-color);
 }
-.img-item.item:not(:last-child) {
+.img-item:not(:last-child) {
   margin-right: 30px;
   width: 270px;
 }
@@ -362,11 +362,8 @@ padding-top: 60px;
   color: var(--main-text-color);
 }
 
-.team-footer {
-  display: inline;
-}
 
-.footer-item.item:not(:last-child) {
+.footer-item:not(:last-child) {
   margin-bottom: 10px;
 }
 /* Портфолио  */
