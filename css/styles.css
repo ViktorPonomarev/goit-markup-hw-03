@@ -85,13 +85,10 @@ text-decoration: none;
 
 
 .navigation {
-  display: block;
   display: flex;
   align-items: center;
 }
-.navigation:last-child {
-  margin-right: 0;
-}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -102,6 +99,10 @@ margin-right: 50px;
 padding-top: 32px;
 padding-bottom: 32px;
 }
+.navigation-item:last-child {
+  margin-right: 0;
+}
+
 .site-nav:last-child {
   margin-right: 0;
 }
