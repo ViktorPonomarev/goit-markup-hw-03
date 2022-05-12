@@ -83,11 +83,14 @@ text-decoration: none;
   align-items: center;
 }
 
+
 .navigation {
+  display: block;
   display: flex;
   align-items: center;
-  
-
+}
+.navigation:last-child {
+  margin-right: 0;
 }
 .site-nav {
   display: flex;
