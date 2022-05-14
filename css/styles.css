@@ -117,7 +117,7 @@ margin-bottom: 32px;
 
 /* Логотип */
 .logo {
-
+display: block;
 margin-right: 93px;  
   color: var(--accent-color);
   font-family: 'Raleway';
@@ -182,7 +182,7 @@ margin-right: 93px;
   margin: auto;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   }
 
 
@@ -198,10 +198,10 @@ line-height: 1.87;
 align-items: center;
 text-align: center;
 border: none;
-letter-spacing: 0,06em;
+letter-spacing: 0.06em;
 background-color: var(--accent-color);
 color: var(--secondary-text-color);
-letter-spacing: 0.06;
+
 padding: 10px 32px;
 }
 .btn-portfolio:hover,
@@ -314,20 +314,13 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 .address {
   font-style: normal;
 }
-/* .logo {
-  color: var(--accent-color);
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  } */
+
+ 
   
 .logo-title-span {
   color: var(--secondary-text-color);
   }
-.logo-item {
-  margin-bottom: 20px;
-}
+
 .footer-section {
   background-color: var(--secondary-bacground-color);
   color: var(--secondary-text-color);
@@ -335,14 +328,20 @@ padding-top: 60px;
   padding-bottom: 60px;
 }
 
-
+.footer-items {
+  margin-top: 20px;
+}
+.footer-item {
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
 
 .footer-text {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
-}
+  }
 
 .footer-link {
   font-style: normal;
@@ -352,9 +351,7 @@ padding-top: 60px;
 }
 
 
-.footer-item:not(:last-child) {
-  padding-top: 10px;
-}
+
 /* Портфолио  */
 /* button portfolio */
 .features-section {
@@ -367,10 +364,11 @@ line-height: 1.63;
 font-family: inherit;
 border: none;
 color: var(--title-text-color);
-background-color: var(--galerry-bacground-color);
+background-color: var(--team-bacgrount-color);
 cursor: pointer;
-letter-spacing: 0,06em;
+letter-spacing: 0.06em;
 border-radius: 4px;
+padding: 6px 22px;
 }
 .control {
   display: flex;
@@ -379,7 +377,7 @@ border-radius: 4px;
 }
 .control-btn {
   margin-right: 8px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   }
 
 .control-btn:last-child {
@@ -393,18 +391,7 @@ background-color: var(--accent-color)
 }
 /* Товары и услуги */
 
-/* .features {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
- }
-.features-item {
-  margin-right: 30px;
-  margin-top: 30px;
-  }
-.features-item:last-child {
-  margin-right: 30px;
-} */
+
 .features {
   display: flex;
   flex-wrap: wrap;
